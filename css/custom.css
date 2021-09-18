@@ -1,0 +1,547 @@
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+	src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Futura Bk BT';
+    src: url('../fonts/FuturaBT-Book.woff2') format('woff2'),
+        url('../fonts/FuturaBT-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/Futura-Bold.woff2') format('woff2'),
+        url('../fonts/Futura-Bold.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura LtCn BT';
+    src: url('../fonts/FuturaBT-LightCondensed.woff2') format('woff2'),
+        url('../fonts/FuturaBT-LightCondensed.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Bk BT';
+    src: url('../fonts/FuturaBT-BookItalic.woff2') format('woff2'),
+        url('../fonts/FuturaBT-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Hv BT';
+    src: url('../fonts/FuturaBT-HeavyItalic.woff2') format('woff2'),
+        url('../fonts/FuturaBT-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura XBlk BT';
+    src: url('../fonts/FuturaBT-ExtraBlack.woff2') format('woff2'),
+        url('../fonts/FuturaBT-ExtraBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Md BT';
+    src: url('../fonts/FuturaBT-BoldItalic.woff2') format('woff2'),
+        url('../fonts/FuturaBT-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Lt BT';
+    src: url('../fonts/FuturaBT-Light.woff2') format('woff2'),
+        url('../fonts/FuturaBT-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Hv BT';
+    src: url('../fonts/FuturaBT-Heavy.woff2') format('woff2'),
+        url('../fonts/FuturaBT-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura BdCn BT';
+    src: url('../fonts/FuturaBT-BoldCondensed.woff2') format('woff2'),
+    url('../fonts/FuturaBT-BoldCondensed.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/Futura-CondensedLight.woff2') format('woff2'),
+        url('../fonts/Futura-CondensedLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Lt BT';
+    src: url('../fonts/FuturaBT-LightItalic.woff2') format('woff2'),
+        url('../fonts/FuturaBT-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura XBlk BT';
+    src: url('../fonts/FuturaBT-ExtraBlack.woff2') format('woff2'),
+        url('../fonts/FuturaBT-ExtraBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Md BT';
+    src: url('../fonts/FuturaBT-Medium.woff2') format('woff2'),
+        url('../fonts/FuturaBT-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/Futura-Black-Bold.woff2') format('woff2'),
+        url('../fonts/Futura-Black-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/Futura-Bold.woff2') format('woff2'),
+        url('../fonts/Futura-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura MdCn BT';
+    src: url('../fonts/FuturaBT-MediumCondensed.woff2') format('woff2'),
+        url('../fonts/FuturaBT-MediumCondensed.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura XBlkCnIt BT';
+    src: url('../fonts/FuturaBT-ExtraBlackCondItalic.woff2') format('woff2'),
+        url('../fonts/FuturaBT-ExtraBlackCondItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Md BT';
+    src: url('../fonts/FuturaBT-MediumItalic.woff2') format('woff2'),
+        url('../fonts/FuturaBT-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+button,
+input[type='submit'],
+input[type='reset'],
+a {
+	transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+}
+.form-control:focus {
+   
+    outline:none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+
+::-moz-selection {
+	color: #ffd6e9;
+	background: #3399ff;
+}
+
+::selection {
+	color: #ffd6e9;
+	background: #3399ff;
+}
+
+::-moz-selection {
+	color: #ffd6e9;
+	background: #3399ff;
+}
+
+::placeholder {
+	color: #e4e4e4;
+	font-size: 16px;
+}
+
+::-webkit-input-placeholder {
+	color: #e4e4e4;
+	font-size: 16px;
+}
+
+:-ms-input-placeholder {
+	/* IE 10+ */
+	color: #e4e4e4;
+	font-size: 16px;
+}
+
+:-moz-placeholder {
+	/* Firefox 18- */
+	color: #e4e4e4;
+	font-size: 16px;
+}
+
+
+textarea::-webkit-input-placeholder {
+	color: #e4e4e4;
+	font-size: 16px;
+}
+
+textarea:-moz-placeholder {
+	/* Firefox 18- */
+	color: #e4e4e4;
+	font-size: 16px;
+}
+
+textarea::-moz-placeholder {
+	/* Firefox 19+ */
+	color: #333333;
+}
+
+textarea:-ms-input-placeholder {
+	color: #e4e4e4;
+	font-size: 16px;
+}
+
+body {
+	font-weight: normal;
+	line-height: normal;
+	font-size: 18px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+
+*:focus {
+	outline: none;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+}
+
+a {
+	color: #fff;
+	outline: none !important;
+	border: none;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	vertical-align: middle;
+}
+img {
+    transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	-webkit-transition: all 0.6s;
+	-o-transition: all 0.6s;
+	-ms-transition: all 0.6s;
+}
+a:hover,
+a:focus {
+	text-decoration: none;
+	color: #123457;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: normal;
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	border: none;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.container-fluid {
+	padding: 0 195px;
+}
+.header_section{
+	text-align: center;
+}
+.img_container{
+	text-align: center;
+}
+.header_section {
+    text-align: center;
+    width: 100%;
+}
+.navbar-header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-header ul li { padding: 0 42px; }
+.navbar-header ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000 !important;
+    letter-spacing: 2px;
+    padding: 0 !important;
+}
+.header_sec { padding-top:60px; }
+.aboutinfo_bdy.row {
+    align-items: center;
+}
+.header_sec { padding-top:60px; }
+.missioninfo_bdy.row {
+    align-items: center;
+}
+.header_sec { padding-top:60px; }
+.ainformationinfo_bdy.row {
+    align-items: center;
+}
+.header_sec { padding-top:60px; }
+.afl_draftinfo_bdy.row {
+    align-items: center;
+}
+.arrow{
+	text-align: center;
+	padding-top: 320px; 
+}
+.hdr-logo{
+	padding-top: 310px;
+}
+.video_size{
+    height: 500px;
+    width: 600px;
+}
+.button_styleId{
+	text-align: center;
+	padding-top: 40px;
+}
+.form-control{
+	background-color: #d9d9d9;
+}
+.form_heading{
+	text-align: center;
+	margin-bottom: 58px;
+
+}
+.form_heading h2{
+     font-size: 70px;
+     font-family: 'Futura';
+     font-weight: bold;
+
+}
+.cmn_hdr h2 {
+    font-family: 'Futura';
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 62px;
+    color: #000;
+    margin-bottom: 30px
+
+}
+.cmn_hdr p{
+	font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 25px;
+    letter-spacing: 1px;
+
+}
+.aboutinfo_sec{
+	overflow: hidden;
+}
+.informationinfo_bdy{
+	padding-left: 190px;
+}
+.aboutinfo_bdy{
+	padding-left: 190px;
+}
+#textareaId{
+	width: 100%;
+	height: 240px;
+	background-color: #d9d9d9;
+	border: none;
+	padding: 25px 30px;
+
+}
+.informationinfo_bdy{
+	padding-bottom: 100px;
+}
+.missioninfo_bdy.row {
+    padding: 0 120px 0 90px;
+}
+.formcls_sec input {
+    padding: 0 30px;
+    height: 60px;
+}
+.button_styleId button {
+    border-radius: 0;
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    border: 2px solid #ff7f01;
+    color: #ff7f01;
+    
+}
+.button_styleId button:hover {
+    background-color:  #ff7f01;
+    border: 2px solid #ff7f01;
+    color: white;
+}
+.video_size {
+    width: 100%;
+}
+.footer_part {
+    font-size: 20px;
+    padding-top: 0;
+    padding-left: 210px;
+    padding-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+}
+.cmn_hdr h2{
+    padding-bottom: 40px;
+}
+.cmn_hdr{
+    padding-left: 190px;
+}
+.missioninfo_inr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.missioninfo_img {
+    width: 50%;
+}
+.missioninfo_txt {
+    width: 50%;
+}
+.aboutinfo_bdy .col-md-8{
+    margin-top: 360px;
+}
+.mission_hdr{
+    padding-left: 160px;
+    padding-top: 275px;
+    font-size: 20px;
+    padding-right: 320px;
+}
+.missioninfo_img{
+    padding-top: 250px;
+    padding-bottom: 440px;
+}
+.mission_hdr h2{
+      font-family: 'Futura';
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 62px;
+    color: #000;
+    margin-bottom: 30px
+
+}
+.mission_hdr p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 25px;
+    letter-spacing: 1px;
+}
+.informationinfo_bdy_img {
+    margin-right: 66px;
+}
+.aboutinfo_bdy_img {
+    margin-right: 100px;
+}
+.contact_sec {
+    padding: 100px 0 85px;
+}
+.cmn_hdr.abt {
+    padding-left: 0;
+}

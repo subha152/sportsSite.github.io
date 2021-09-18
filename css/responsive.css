@@ -1,0 +1,611 @@
+@media (max-width: 2560px) {}
+
+@media (max-width: 1920px) {}
+
+@media (max-width: 1800px) {	
+}
+@media (max-width: 1680px) {
+.container-fluid {
+	padding: 0 170px;
+}
+.header_sec {
+    padding-top: 25px;
+}  
+.navbar-header ul li a {
+    font-size: 17.5px; 
+}
+.navbar-header ul li {
+    padding: 0 36px;
+}
+.hdr-logo {
+    padding-top: 262px;
+}
+.hdr-logo img {
+    height: 221px;
+}
+.arrow {
+    padding-top: 280px;
+}
+.cmn_hdr h2 {
+    font-size: 61px;
+    line-height: 58px;
+    padding-bottom: 39px;
+}
+.cmn_hdr p {
+    font-size: 19.25px;
+    line-height: 32px;
+    padding-bottom: 20px;
+}
+.missioninfo_bdy.row {
+    padding: 175px 166px 0 78px;
+}
+.informationinfo_bdy {
+    padding: 140px 0 262px 100px;
+}
+.video_size {
+    height: 761px;
+}
+.contact_sec .formcls_sec {
+    padding: 0 125px;
+}
+.button_styleId {
+    padding-top: 30px;
+}
+.button_styleId button {
+    padding: 12px 30px;
+    font-size: 17.5px;
+}
+#textareaId {
+    height: 210px;
+    padding: 20px 30px;
+}
+.hdr-logo {
+    padding-top: 230px;
+}
+
+.mission_hdr h2 {
+    font-size: 61px;
+}
+.mission_hdr p {
+    font-size: 18px;
+
+}
+.footer_part {
+    font-size: 17px;
+}
+ .cmn_hdr {
+    padding-left: 160px;
+}
+.missioninfo_img {
+    padding-top: 187px;
+    padding-bottom: 100px;
+}
+
+}
+@media (max-width: 1440px) {
+.container-fluid {
+	padding: 0 146px;
+} 
+.header_sec {
+    padding-top: 25px;
+} 
+.navbar-header ul li a {
+    font-size: 15px; 
+}
+.navbar-header ul li {
+    padding: 0 31px;
+}
+.hdr-logo {
+    padding-top: 225px;
+}
+.hdr-logo img {
+    height: 185px;
+}
+.arrow {
+    padding-top: 240px;
+}
+.cmn_hdr h2 {
+    font-size: 52px;
+    line-height: 48px;
+    padding-bottom: 32px;
+}
+.cmn_hdr p {
+    font-size: 16.5px;
+    line-height: 28px;
+    padding-bottom: 17px;
+}
+.aboutinfo_sec {
+    padding-top: 50px;
+}
+.missioninfo_bdy.row {
+    padding: 150px 142px 0 67px;
+}
+.informationinfo_bdy {
+    padding: 120px 0 225px 142px;
+}
+.video_size {
+    height: 652px;
+}
+.afl_draftinfo_bdy .cmn_hdr {
+    padding-left: 40px;
+}
+.contact_sec {
+    padding: 187px 0 120px;
+}
+.formcls_sec input, .formcls_sec textarea {
+    padding: 0 20px;
+    height: 52px;
+    font-size: 16px;
+}
+.formcls_sec input::placeholder, .formcls_sec textarea::placeholder {
+    font-size: 16px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.contact_sec .formcls_sec {
+    padding: 0 108px;
+}
+.button_styleId {
+    
+    padding-top: 25px;
+}
+.button_styleId button {
+    padding: 12px 30px;
+    font-size: 15px;
+}
+#textareaId {
+    height: 180px;
+    padding: 20px 20px;
+}
+.mission_hdr h2 {
+    font-size: 52px;
+}
+.mission_hdr p {
+    font-size: 15px;
+}
+.footer_part {
+    font-size: 15px;
+}
+.contact_sec {
+    padding: 105px 0 105px;
+}
+.mission_hdr {
+    padding-top: 200px;
+}
+.mission_hdr {
+    padding-left: 61px;
+    padding-right: 89px;
+}
+.form_heading h2 {
+    font-size: 50px;
+}
+}
+@media (max-width: 1366px) {
+.container-fluid {
+	padding: 0 80px;
+}  
+}
+@media (max-width: 1280px) {
+.container-fluid {
+    padding: 0 128px;
+} 
+.header_sec {
+    padding-top: 20px;
+}
+.navbar-header ul li {
+    padding: 0 27px;
+}
+.hdr-logo {
+    padding-top: 198px;
+}
+.hdr-logo img {
+    height: 165px;
+}
+.arrow {
+    padding-top: 210px;
+}
+.cmn_hdr h2 {
+    font-size: 46px;
+    line-height: 42px;
+    padding-bottom: 29px;
+}
+.cmn_hdr p {
+    font-size: 14.25px;
+    line-height: 24px;
+    padding-bottom: 15px;
+}
+.aboutinfo_sec {
+    padding-top: 40px;
+}
+.missioninfo_bdy.row {
+    padding: 132px 125px 0 58px;
+}
+.informationinfo_bdy {
+    padding: 105px 0 198px 125px;
+}
+.video_size {
+    height: 574px;
+}
+.afl_draftinfo_bdy .cmn_hdr {
+    padding-left: 30px;
+}
+.contact_sec {
+    padding: 90px 0 80px;
+}
+.formcls_sec input, .formcls_sec textarea {
+    padding: 0 15px;
+    height: 48px;
+    font-size: 14px;
+}
+.formcls_sec input::placeholder, .formcls_sec textarea::placeholder {
+    font-size: 14px;
+}
+.contact_sec .formcls_sec {
+    padding: 0 95px;
+}
+.button_styleId {
+    padding-top: 20px;
+}
+.button_styleId button {
+    padding: 12px 30px;
+    font-size: 17.5px;
+}
+.button_styleId button {
+    padding: 12px 30px;
+    font-size: 13.5px;
+}
+.mission_hdr h2 {
+    font-size: 46px;
+}
+.mission_hdr p {
+    font-size: 13px;
+}
+.footer_part {
+    padding-left: 246px;
+}
+}
+@media (max-width: 1080px) {
+.container-fluid {
+    padding: 0 100px;
+} 
+.header_sec {
+    padding-top: 20px;
+}
+.navbar-header ul li a {
+    font-size: 13.5px; 
+}
+.navbar-header ul li {
+    padding: 0 23px;
+}
+.hdr-logo {
+    padding-top: 168px;
+}
+.hdr-logo img {
+    height: 142px;
+}
+.arrow {
+    padding-top: 150px;
+}
+.cmn_hdr h2 {
+    font-size: 39.38px;
+    line-height: 36px;
+    padding-bottom: 25px;
+}
+.cmn_hdr p {
+    font-size: 12.5px;
+    line-height: 21px;
+    padding-bottom: 10px;
+}
+.aboutinfo_sec {
+    padding-top: 30px;
+}
+.missioninfo_bdy.row {
+    padding: 112px 106px 0 50px;
+}
+.informationinfo_bdy {
+    padding: 90px 0 100px 100px;
+}
+.video_size {
+    height: 485px;
+}
+.contact_sec {
+    padding: 140px 0 90px;
+}
+.contact_sec .formcls_sec {
+    padding: 0 80px;
+}
+.button_styleId {
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+.mission_hdr h2 {
+    font-size: 39px;
+}
+.mission_hdr p {
+    font-size: 12.5px;
+}
+.footer_part {
+    font-size: 13px;
+}
+.contact_sec {
+    padding: 78px 0 90px;
+}
+.footer_part {
+    padding-left: 155px;
+}
+}
+@media (max-width: 1024px) {
+    .aboutinfo_bdy .col-md-8 {
+    margin-top: 270px;
+}
+.aboutinfo_bdy {
+    padding-left: 120px;
+}
+}
+@media (max-width: 991px) {
+    .video_size {
+    height: 380px;
+}
+.aboutinfo_bdy_img {
+    padding-top: 211px;
+    padding-left: 24px;
+}
+.contact_sec {
+    padding: 78px 0 60px;
+}
+.mission_hdr p {
+    font-size: 12.5;
+}
+.navbar-nav{
+    flex-direction: unset;
+}
+}
+@media (max-width: 812px) {
+.container-fluid {
+    padding: 0 80px;
+} 
+.header_sec {
+    padding-top: 26px;
+}
+.navbar-header ul li {
+    padding: 0 18px;
+}
+.hdr-logo {
+    padding-top: 131px;
+}
+.hdr-logo img {
+    height: 110px;
+}
+.arrow {
+    padding-top: 120px;
+}
+.arrow img { height: 18px; }
+.cmn_hdr h2 {
+    font-size: 30px;
+    line-height: 28px;
+    padding-bottom: 19px;
+}
+.missioninfo_bdy.row {
+    padding: 87px 80px 0 38px;
+}
+.informationinfo_bdy {
+    padding: 70px 0 90px 80px;
+}
+.video_size {
+    height: 350px;
+}
+.contact_sec {
+    padding: 109px 0 70px;
+}
+.contact_sec .formcls_sec {
+    padding: 0 60px;
+}
+.navbar-header ul {
+    flex-direction: inherit;
+}
+.mission_hdr h2 {
+    font-size: 30px;
+}
+
+.footer_part {
+    font-size: 14px;
+}
+.form_heading h2 {
+    font-size: 31px;
+}
+.aboutinfo_bdy .col-md-8 {
+    margin-top: 70px;
+}
+.aboutinfo_bdy_img {
+    padding-top: 8px;
+    padding-left: 7px;
+}
+.aboutinfo_bdy_img {
+    margin-right: 89px;
+}
+}
+@media (max-width: 767px) {
+.hdr-logo {
+    padding-top: 100px;
+}
+.missioninfo_bdy.row {
+    padding: 60px 50px 0 30px;
+}
+.contact_sec {
+    padding: 70px 0 40px;
+}
+.aboutinfo_sec .row {
+    flex-wrap: inherit;
+}
+.aboutinfo_bdy_img { text-align: center; }
+.aboutinfo_bdy_img img {
+    height: 440px;
+}
+.container-fluid {
+    padding: 0 40px;
+}
+.missioninfo_bdy.row {
+    padding: 60px 40px 0 30px;
+}
+.informationinfo_bdy {
+    padding: 70px 0 60px 40px;
+}
+.afl_draftinfo_bdy .cmn_hdr {
+    padding-left: 0;
+}
+.button_styleId button {
+    padding: 9px 20px;
+    font-size: 13.5px;
+    letter-spacing: 0;
+}
+#textareaId {
+    height: 100px;
+    padding: 20px 15px;
+}
+.video_size {
+    height: 300px;
+}
+.footer_part {
+    padding-left: 116px;
+}
+}
+@media (max-width: 667px) {
+    .hdr-logo {
+    padding-top: 60px;
+}
+.aboutinfo_bdy {
+    padding-left: 30px;
+}
+.contact_sec .formcls_sec {
+    padding: 0;
+}
+.form_heading {
+    margin-bottom: 40px;
+}
+.aboutinfo_bdy .row{
+  display: block;
+}
+.missioninfo_img, .missioninfo_txt {
+    width: 100%;
+}
+.missioninfo_inr {
+    flex-wrap: wrap;
+}
+.cmn_hdr.abt h2 br {
+    display: none;
+}
+.aboutinfo_bdy_img {
+    margin-right: 0px;
+    padding: 0px;
+}
+.mission_hdr {
+    padding-top: 22px;
+}
+.mission_hdr {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.mission_hdr h2 {
+    margin-bottom: 0px;
+}
+.aboutinfo_sec .row {
+    flex-wrap: inherit;
+    display: block;
+}
+.footer_part {
+    padding-left: 30px !important;
+}
+.missioninfo_img {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.cmn_hdr.abt h2 br {
+    display: none;
+}
+.form_heading h2 {
+    font-size: 24px;
+}
+}
+@media (max-width: 575px) {
+    .hdr-logo {
+    padding-top: 30px;
+}
+.cmn_hdr h2 {
+    font-size: 24px;
+    line-height: 24px;
+    padding-bottom: 15px;
+}
+.arrow img {
+    height: 15px;
+}
+.container-fluid {
+    padding: 0 30px;
+}
+.missioninfo_bdy.row {
+    padding: 60px 30px 0 30px;
+}
+.informationinfo_bdy {
+    padding: 60px 0 60px 30px;
+}
+.contact_sec .formcls_sec {
+    padding: 0;
+}
+.button_styleId {
+    padding-top: 0;
+}
+.arrow {
+    padding-top: 70px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+}
+@media (max-width: 484px) {
+    .header_sec {
+    padding-top: 15px;
+}
+.cmn_hdr p {
+    font-size: 12.5px;
+    line-height: 18px;
+    padding-bottom: 10px;
+}
+.contact_sec {
+    padding: 3px 0 36px;
+}
+.informationinfo_bdy {
+    padding: 24px 0 60px 40px;
+}
+.mission_hdr {
+    padding-top: 0px;
+}
+.container-fluid {
+    padding: 0px 15px;
+}
+.aboutinfo_bdy {
+    padding-left: 11px;
+}
+}
+@media (max-width: 420px) {
+    .aboutinfo_sec .row {
+    flex-wrap: wrap;
+    text-align: center;
+}
+.aboutinfo_bdy_img {
+    padding-top: 25px;
+}
+.informationinfo_bdy {
+    padding: 50px 30px;
+}
+.form-group {
+    margin-bottom: 15px;
+    padding: 0;
+}
+.video_size {
+    height: 280px;
+}
+.aboutinfo_bdy {
+    padding-left: 4px;
+}
+}
+@media (max-width: 375px) {}
